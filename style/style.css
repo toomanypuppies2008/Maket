@@ -1,22 +1,19 @@
-.border {
-  border: 1px solid red;
-}
 
 header {
-  width: 1440px;
-  height: 62px;
+  width: 95vw;
+  height: 12vh;
   display: grid;
   grid-template-columns: 1.5fr repeat(4, 1fr) 4fr 1fr 1fr;
 }
 
 .svg-pic {
-  margin-top: 1em;
-  margin-left: 1em;
+  margin-top: 1vh;
+  margin-left: 1vw;
 }
 
 .h-2, .h-3, .h-4, .h-5 {
 font-weight: 400;
-font-size: 18px;
+font-size: 2.5vh;
 line-height: 156%;
 letter-spacing: 0.01em;
 text-align: center;
@@ -25,18 +22,18 @@ margin-top: 1em;
 
 .log-in, .button-1 {
 font-weight: 700;
-font-size: 18px;
+font-size: 3vh;
 line-height: 156%;
 letter-spacing: 0.01em;
 }
 
 .button-1 {
-width: 144px;
-height: 48px;
+width: 9vw;
+height: 4vh;
 background-color: #00c805;
 border-radius: 24px;
 border: none;
-margin-top: 5%;
+margin-top: 3vh;
 }
 
 .button-1:hover {
@@ -48,27 +45,17 @@ margin-top: 5%;
 
 .section-1 {
   background-color: rgba(195, 245, 60, 1);
-  width: 1440px;
-  height: 654px;
+  width: 95vw;
+  height: 100vh;
   display: grid;
-  grid-template-columns: 108px 492px calc(27px + 696px) 108px;
+  grid-template-columns: 0.3fr 1.5fr 2fr 0.3fr;
 }
 
 .div-0 {
   display: grid;
-  grid-template-rows: 230px 210px 1fr 1fr;
+  grid-template-rows: 1.5fr 1.2fr 1fr 1fr;
 }
 
-.div-1 {
-width: 723px ;
-height: 654px ;
-}
-
-
-.phone-2 {
-  position: absolute; 
-  margin-left: -692px;
- }
 
  .text {
   font-family: "Roboto", sans-serif;
@@ -78,34 +65,30 @@ height: 654px ;
 
 .investing {
 font-weight: 700;
-font-size: 46px;
+font-size: 5vh;
 line-height: 130%;
-letter-spacing: 0.04em;
-text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-width: 300px;
-height: 120px;
 text-align: left;
-margin-top: 70px;
+margin-top: 17vh;
 }
 
 .comission {
 font-weight: 700;
-font-size: 24px;
+font-size: 3vh;
 line-height: 150%;
-letter-spacing: 0.01em;
-width: 486px;
+letter-spacing: 0.01vh;
 text-align: left;
 }
   
 .button-2 {
-width: 144px;
-height: 48px;
+width: 10vw;
+height: 6vh;
+margin-top: 4vh;
 background-color: #000;
 border-radius: 24px;
 font-weight: 700;
-font-size: 17px;
+font-size: 3vh;
 line-height: 165%;
-letter-spacing: 0.01em;
+letter-spacing: 0.01vh;
 text-align: center;
 color: #fff;
 }
@@ -119,25 +102,29 @@ color: #fff;
 
 .comission-2 {
 font-weight: 400;
-font-size: 18px;
+font-size: 2vh;
 line-height: 156%;
-letter-spacing: 0.01em;
+letter-spacing: 0.01vh;
 text-align: left;
-margin-left: 30px;
-margin-bottom: -30px;
+margin-left: 3vw;
+margin-bottom: -6vh;}
+
+.frame {
+  margin-top: 2vh;
+  margin-left: 1vw;
 }
 
 .between {
-  width: 1440px;
-  height: 60px;
+  width: 95vw;
+  height: 9vh;
   text-align: center;
 }
 
 .see {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 4vh;
   line-height: 156%;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.01vh;
   }
 
   .fee {font-weight: 500;
@@ -145,49 +132,51 @@ margin-bottom: -30px;
     text-decoration-skip-ink: none;}
 
 .section-2 {
-width: 1440px;
-height: 453px;
+width: 95vw;
+height: 50vh;
 display: grid;
-grid-template-columns: 807px 492px 117px;
+grid-template-columns: 2fr 1.5fr 0.4fr;
 }
 
 .img-people {
-width: 807px;
-height: 454px;
+  width: 51vw;
+  height: 53vh;
+  max-width: 100%;
 }
 
 .we-are {
 font-weight: 700;
-font-size: 45px;
+font-size: 4.5vh;
 line-height: 133%;
-letter-spacing: 0.04em;
+letter-spacing: 0.04vh;
 margin-left: 5%;
 margin-top: 40%;
 }
 
 .see-the {
 font-weight: 700;
-font-size: 18px;
+font-size: 3vh;
 line-height: 156%;
 letter-spacing: 0.01em;
-margin-left: 5%;
+margin-left: 5vh;
 }
 
 .see-the::after {
   content: url(../assets/img/Frame-2.png);
   position: absolute;
-  margin-top: 2px;
+  margin-top: 1px;
   margin-left: 3px;
  }
 
  .section-3 {
-  width: 1440px;
-  height: 530px;
+  width: 95vw;
+  height: 80vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  column-gap: 7px;
-  row-gap: 10px;
+  column-gap: 2vw;
+  row-gap: 7vh;
+  overflow: hidden;
  }
 
  .div-2 {
@@ -222,14 +211,14 @@ margin-left: 5%;
 
  .introdusing {
 font-weight: 500;
-font-size: 31px;
+font-size: 1.5em;
 line-height: 129%;
 letter-spacing: 0.01em;
  }
 
  .invest {
 font-weight: 400;
-font-size: 17px;
+font-size: 1em;
 line-height: 165%;
 letter-spacing: 0.01em;
 color: #6f787e;
@@ -237,86 +226,68 @@ color: #6f787e;
 
  .fractional {
 font-weight: 500;
-font-size: 18px;
+font-size: 1em;
 line-height: 156%;
 letter-spacing: 0.01em;
 color: #6f787e;
-width: 252px;
-height: 28px;
-margin-left: 30px;
-margin-bottom: -30px;
- }
+overflow: hidden;
+}
 
 
 .p-1 {
 font-weight: 700;
-font-size: 18px;
+font-size: 1em;
 line-height: 156%;
 letter-spacing: 0.01em;
  }
 
  p.2 {
 font-weight: 400;
-font-size: 18px;
+font-size: 1em;
 line-height: 156%;
 letter-spacing: 0.01em;
 }
 
-.choose {
-  width: 250px;
-  height: 112px;
-}
-
-.customize {
-width: 246px;
-height: 84px;
-}
 
 .section-4 {
+width: 95vw;
+height: 90vh;
 background-color: #000;
-width: 1440px;
-height: 681px;
 display: grid;
 grid-template-columns: 1fr 1.5fr 1.5fr;
 }
 
 .learn {
-width: 411px; 
-height: 60px;
 font-weight: 400;
-font-size: 45px;
+font-size: 2em;
 line-height: 133%;
 letter-spacing: 0.04em;
 color: #fff;
-margin-left: 50px;
+margin-left: 2em;
 }
 
 .our {
-width: 446px;
-height: 84px;
 font-weight: 400;
-font-size: 18px;
+font-size: 1em;
 line-height: 156%;
 letter-spacing: 0.01em;
 color: #fff;
-margin-left: 50px;
-}
-
-.div-8 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.img-phone-2 {
-  margin-top: 90px;
-  margin-bottom: 91px;
+margin-left: 2vw;
 }
 
 .div-9 {
-width: 113px;
-height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
+  justify-content: center;
+}
+
+.img-phone-2 {
+  margin-top: 9vh;
+  margin-bottom: 9vh;
+}
+
+.div-8 {
 display: flex;
 flex-direction: column;
 align-items: flex-end;
@@ -327,7 +298,7 @@ margin-left: 15em;
 
 .p-learn {
 font-weight: 400;
-font-size: 23px;
+font-size: 1.2em;
 line-height: 157%;
 letter-spacing: 0.01em;
 color: #fff;
@@ -335,15 +306,19 @@ color: #fff;
 
 .p-customize, .p-manage {
 font-weight: 400;
-font-size: 23px;
+font-size: 1.2em;
 line-height: 157%;
 letter-spacing: 0.01em;
 color: #545d61;
 }
 
 .vector-1, .vector-2 {
-  width: 28px;
-  height: 28px;
+  width: 2vw;
+  height: 4vh;
 }
 
+
+@media screen and (max-width: 767px) {
+header {display: none;}
+}
 
